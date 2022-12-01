@@ -29,17 +29,99 @@
       text-align: right;
       text-decoration: none;
     }
-    .new_product .row {
+     .row {
       display: flex;
     }
-    .new_product .row .col-3{
-      background-color: aqua;
-      width: 20%;
+     .col-3{
+      width: 15%;
     }
-    .new_product .row .col-6{
-      background-color: red;
+    .col-6{
+      width: 70%;
+    }
+
+    .half{
+      width: 50%;
+      height: auto;
+    }
+    .text-center {
+      text-align: center;
+    }
+    .text-w{
+      color: white;
+    }
+
+    .new_product {
+      background-color: rgb(242 240 236);
+    }
+    .new_product .col-6 {
+      display: block;
+    }
+    .new_product .row .col-6 .col {
+      width: 25%;
+      text-align: left;
+    }
+    .new_product .row .col-6 .col img{
+      border-radius: 16px;
+    height: 40%;
+    display: block;
+    width: 90%;
+    margin: 20px 0px 20px;
+    }
+    .new_product .row .col-6 .col span {
+      padding: 5px;
+    }
+    .new_product .row .col-6 .col span a{
       width: 60%;
     }
+    .flex {
+      display: flex;
+    }
+    .indent {
+      text-indent: 15px;
+    }
+    .infomation {
+      /* background-color:  rgb(0 80 114); */
+     background-image:  linear-gradient(to right,rgb(0 80 114), rgb(142 79 145))
+    }
+    .info-company {
+      position: relative;
+    width: 50%;
+    margin-left: 25%;
+    word-wrap: break-word;
+    }
+    .button_contact {
+      position: relative;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+    border-radius: 46px;
+    border: 1px solid white;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .button_contact p{
+      margin: 5px;
+      font-size: 15px;
+    }
+    .infomation .col-6 {
+      padding-bottom: 6%;
+    }
+    .social {
+      padding-bottom: 100px;
+    }
+    footer {
+      background-color: rgb(242 240 236);
+      display: block;
+      color: rgb(0 80 114);
+    }
+    footer i {
+      font-size: 50px;
+      color: rgb(245, 69, 183);
+    }
+  
+
     </style>
   </head>
   <body>
@@ -204,34 +286,142 @@
         <div class="blog">
           <h1 >/ お知らせ /</h1>
           <div class="list_blog">
-            <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキスト</a></p>
-            <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a></p>
-            <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a></p>
-            <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a></p>
+            <div class="row">
+              <div class="col-3"></div>
+              <div class="col-6">
+                  <div class="border_dotted">
+                    <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキスト</a></p>
+                    <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a></p>
+                    <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a></p>
+                    <p><strong>2022 年 11 月 15 日</strong> &emsp; <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a></p>
+                  </div>
+                <div class="read_more"><p >
+                  <a href="">Read more <i class="bi bi-arrow-right"></i>
+                 </a></p> 
+                </div>
+              </div>
+              <div class="col-3"></div>
+            </div>
           </div>
-          <div class="read_more"><p > <a href="">Read more <i class="bi bi-arrow-right"></i></a></p> 
-          </div>
-          <div class="new_product">
+        
+            <div class="new_product">
             <h1>/ ブログ /</h1>
               <div class="row">
                 <div class="col-3">
-                  1 of 3
+                  
                 </div>
                 <div class="col-6">
-                  2 of 3
+                  <div class="flex">
+                    <div class="col">
+                      <img src="../images 3/店内/2FH-_AhDTZ92wUpM1BbAh97W3fBILAzi-gTvgU7Da1ydTWaBBYx7fmKst7g_3xZFvb_BGKIICESKdHvZYeZtEnGo6pcun6ugGlA3Hbsj6Czf2CY6JC6Y3tviBgnt6FyR.jpg" 
+                      alt="" >
+                      <div class="product_name">
+    
+                        <span>2022 年 11 月 15 日 </span> <br>
+                        <span><a href="#" >お知らせテキストお知らせテキストお知らせテキ</a></span>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="../images 3/店内/2FH-_AhDTZ92wUpM1BbAh97W3fBILAzi-gTvgU7Da1ydTWaBBYx7fmKst7g_3xZFvb_BGKIICESKdHvZYeZtEnGo6pcun6ugGlA3Hbsj6Czf2CY6JC6Y3tviBgnt6FyR.jpg" 
+                      alt="" >
+                      <div class="product_name">
+    
+                        <span>2022 年 11 月 15 日 </span> <br>
+                        <span><a href="#" >お知らせテキストお知らせテキストお知らせテキ</a></span>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="../images 3/店内/2FH-_AhDTZ92wUpM1BbAh97W3fBILAzi-gTvgU7Da1ydTWaBBYx7fmKst7g_3xZFvb_BGKIICESKdHvZYeZtEnGo6pcun6ugGlA3Hbsj6Czf2CY6JC6Y3tviBgnt6FyR.jpg" 
+                      alt="" >
+                      <div class="product_name">
+    
+                        <span>2022 年 11 月 15 日 </span> <br>
+                        <span><a href="#" >お知らせテキストお知らせテキストお知らせテキ</a></span>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <img src="../images 3/店内/2FH-_AhDTZ92wUpM1BbAh97W3fBILAzi-gTvgU7Da1ydTWaBBYx7fmKst7g_3xZFvb_BGKIICESKdHvZYeZtEnGo6pcun6ugGlA3Hbsj6Czf2CY6JC6Y3tviBgnt6FyR.jpg" 
+                      alt="" >
+                      <div class="product_name">
+                        <span>2022 年 11 月 15 日 </span> <br>
+                        <span><a href="#" >お知らせテキストお知らせテキストお知らせテキ</a></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="read_more"><p >
+                    <a href="">Read more <i class="bi bi-arrow-right"></i>
+                   </a></p> 
+                  </div>
+                  <div class="border_dotted">
+                    <p></p>
+                  </div>
                 </div>
                 <div class="col-3">
-                  3 of 3
                 </div>
-                
               </div>
-
+            </div> 
+         <div class="social row  ">
+          <div class="col-3">
+          </div>
+          <div class="col-6 row">
+            <div class="half text-center">
+              <h1 class=""> / インスタグラム /</h1>
+              <img src="../img/instargram.PNG" alt="" width="80%">
+            </div>
+            <div class="half text-center">
+              <h1 >/ 空き状況 /</h1>
+              <img src="../img/instargram.PNG" alt="" width="80%">
+            </div>
+          </div>
+          <div class="col-3">
           </div>
 
-          
+         </div>
+         
         </div>
       </div>
+      <div class="infomation">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6 text-w">
+            <h1 class="text-center">予約</h1>
+            <div class="info-company text-center indent">
+              <p>トリミング作業中の場合お電話に出られない場合がございます
+                その際は大変申し訳ございませんが当日中に折り返しさせて頂きます
+                LINEからのご連絡いただければよりスムーズに対応可能です</p>
+            </div>
+            <div class="row">
+                <div class="half text-center">
+                  <div class="button_contact ">
+                    <p>お電話でのご予約</p>
+                   <p> 048-607-4440 </p>
+                    <p>営業時間 9:30~17:00 不定休</p>
+                  </div>
+                </div>
+                <div class="half text-center ">
+                  <div class="button_contact">
+                    <p>LINEでのご予約</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-3"></div>
+        </div>
+        
+       </div>
+       <footer>
+        <div class=" text-center">
+         <img src="../img/logotim_trong_suot.png" alt="" width="400px">
+         <h2>〒336-0033　埼玉県さいたま市南区曲本3-6-8</h2>
+         <h2>TEL 048-607-4440  /  FAX 048-607-4440</h2>
+         <h2>（営業時間 9:30~17:00 不定休</h2>
+         <i class="bi bi-instagram"></i>
+         <h2>&copy;sanpomichi</h2>
+
+        </div>
+       </footer>
     </div>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
  
     <script>

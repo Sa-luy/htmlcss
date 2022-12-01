@@ -212,7 +212,7 @@ margin-top: 0px;
   .blog h1{
     text-align: center;
   }
-  .list_blog p{
+  .border_dotted p{
     border-bottom: 2px dotted rgb(0 80 114);
     padding: 20px;
   }
