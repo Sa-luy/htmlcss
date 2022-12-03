@@ -23,85 +23,132 @@
       /* background-repeat: no-repeat; */
       background-size: contain;
       background-position: center;
-
     }
-    .content h4{
+    .content h4 {
       font-size: 30px;
       margin: 20px;
       padding: 5px;
     }
-    .logo_head img{
-    padding-top: 6em;
-    padding-bottom: 6em;
-    width: 30%;
-    display: inline-block;
+    .logo_head img {
+      padding-top: 6em;
+      padding-bottom: 6em;
+      width: 30%;
+      display: inline-block;
+    }
+    .content_first {
+      padding-bottom: 5%;
+    }
+    .content_second h6 {
+      margin: 10px;
+    }
+    .content_second {
+      margin-top: 50px;
+      padding-bottom: 10em;
+    }
+    .body {
+      background-color: rgb(84, 84, 114);
+      display: flex;
+      position: relative;
+    }
+    .note {
+      display: flex;
+      color: rgb(0 80 114);
+      position: absolute;
+      left: 15%;
+      top: -50px;
+    }
+    .content_info {
+      width: 100%;
+      position: relative;
+    }
+    .note h3 {
+      width: 12%;
+      height: 300px;
+    }
+    .note p {
+      width: 6%;
+      writing-mode: vertical-lr;
+      text-align: left;
+      height: 150px;
+    }
+    .content_description {
+      margin: 100px 0px 100px;
+    }
+    .new_product {
+      background-color: rgb(0 80 114);
+    }
+    .fist_product{
+      height: 600px;
+    }
+    .new_product .title {
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+    .product_title_left{
+      writing-mode: vertical-lr;
+      border-right: 2px solid white;
+      height: 70%;
+      padding-left: 15%;
+      color: white;
+    }
+    .product_title_left #first {
+      padding: 14px 0px 5px 23px;
+      margin-right: 0px;
+    }
+    .product_title_left #second {
+      margin-left: 0px;
+    }
+    .product_title_right #first {
+      /* padding: 14px 0px 5px 23px; */
+      margin-right: 0px;
+    }
+    .product_title_right #second {
+      margin-left: 0px;
+    padding-top: 15px;
+    }
+   .img-responsive {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+    object-fit: cover;
+
+   }
+   .fist_product .product_detail  img{
+    height: 350px;
+    border-radius: 40px;
+
+   }
+   .product_title_right {
+    writing-mode: vertical-lr;
+      border-left: 2px solid white;
+      height: 70%;
+      /* padding-left: 15%; */
+      color: white;
+   }
+   .second_product .product_detail img {
+    height: 350px;
+    border-radius: 40px;
+}
+   
+
  
-}
-.content_first {
-  padding-bottom: 5%;
-}
-.content_second  h6{
-  margin: 10px;
-}
-.content_second {
-  margin-top: 50px;
-  padding-bottom: 10em;
-  
-}
-.body {
-  background-color: rgb(84, 84, 114);
-  display: flex;
-  position: relative;
-}
-.note {
-  display: flex;
-    color: rgb(0 80 114);
-    position: absolute;
-    left: 15%;
-    top: -50px;
-  
-}
-.content_info {
-  width: 100%;
-  position: relative;
-
-}
-.note h3 {
-  width: 12%;
-  height: 300px;
-
-}
-.note p{
-width: 5%;
-writing-mode: vertical-lr;
-text-align: left;
-height: 150px;
-}
-.content_description {
-  margin: 100px 0px 100px;
-
-}
-.new_product {
-  background-color: rgb(0 80 114);
-}
-
   </style>
   <body>
     <div class="container">
       <div class="header">
-          <div class="pb-3">
-            <img src="../img/Untitled-1.png" alt="" />
-          </div>
+        <div class="pb-3">
+          <img src="../img/Untitled-1.png" alt="" />
+        </div>
 
-          <div class="logo_head py-4 mb-5">
-            <img src="../img/logo_white_opacity0.png" alt="" />
-          </div>
-          <div class=" text-light text-center content_first ">
-                <h4>さんぽ路は</h4>
-                <h4>家族の一員であるわんちゃんの気持ちに寄り添い</h4>
-                <h4>心と体のケアができるトリミングサロンです</h4>
-          </div> 
-        <div class="text-light content_second  ">
+        <div class="logo_head py-4 mb-5">
+          <img src="../img/logo_white_opacity0.png" alt="" />
+        </div>
+        <div class="text-light text-center content_first">
+          <h4>さんぽ路は</h4>
+          <h4>家族の一員であるわんちゃんの気持ちに寄り添い</h4>
+          <h4>心と体のケアができるトリミングサロンです</h4>
+        </div>
+        <div class="text-light content_second">
           <h6>上手にできる子に</h6>
           <h6>
             も話しかけながら 居心地のいい場所になりますように
@@ -114,19 +161,53 @@ height: 150px;
             わんちゃんにとっても飼い主様にとっても月に１度のご褒美となるような
             居心地のいい場所になりますように
           </h6>
-        </div> 
-        <div class="body">
-          <div class="note">
-            <h3 class="bg-white">さんぽ路について</h3>
-            <p class="bg-white">About SANPOMICH</p>
-          </div>
-          <div class="text-center content_info ">
-            <div class="content_description">
-              <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに</p>
-              <p>お店を好きになってほしい・・・</p>
-              <p>そんな想いを込めて「さんぽ路」と名付けました</p>
+        </div>
+      </div>
+      <div class="body">
+        <div class="note">
+          <h3 class="bg-white">さんぽ路について</h3>
+          <p class="bg-white">About SANPOMICH</p>
+        </div>
+        <div class="text-center content_info">
+          <div class="content_description">
+            <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに</p>
+            <p>お店を好きになってほしい・・・</p>
+            <p>そんな想いを込めて「さんぽ路」と名付けました</p>
+            <br />
+            <p>
+              トリミングの様子をずっと見ていたい
               <br />
-              <p>
+              愛犬のシャンプーを選んでみたい
+              <br />
+              正しいケアを愛犬でレクチャーして欲しい
+              <br />
+              愛犬家にとってあったらいいなを叶えるサロンを作りました
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="new_product">
+        <div class="title text-center">
+          <h1>さんぽ路のこだわり</h1>
+          <h3>KODAWARI</h3>
+        </div>
+        <div class="row fist_product">
+          <div class="col-3 product_title_left">
+            <p id="first">&emsp;&emsp;仕上がり</p>
+            <p id="second">選べる香りと&emsp;</p>
+            <hr size="70%" id="hrtag" color="white" />
+            <!-- <hr > -->
+          </div>
+          <div class="col-8 px-5 product_detail ">
+            <div class="row product_image">
+              <img class="img-responsive" src="../img/product2.jpg" alt="">
+            </div>
+            <div class="text-light product_description">
+              <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
+              お店を好きになってほしい・・・<br/>
+              そんな想いを込めて「さんぽ路」と名付けました
+              <br />
+              
                 トリミングの様子をずっと見ていたい
                 <br />
                 愛犬のシャンプーを選んでみたい
@@ -138,10 +219,34 @@ height: 150px;
             </div>
           </div>
         </div>
-        <div class="new_product">
-        <div class="title">
-          <h1> jkj</h1>
-        </div>
+        <div class=" row second_product">
+          <div class="col-1"></div>
+          <div class="col-8 px-5 product_detail ">
+            <div class="row product_image">
+              <img class="img-responsive" src="../img/product2.jpg" alt="">
+            </div>
+             <div class="text-light product_description">
+              <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
+              お店を好きになってほしい・・・<br/>
+              そんな想いを込めて「さんぽ路」と名付けました
+              <br />
+              
+                トリミングの様子をずっと見ていたい
+                <br />
+                愛犬のシャンプーを選んでみたい
+                <br />
+                正しいケアを愛犬でレクチャーして欲しい
+                <br />
+                愛犬家にとってあったらいいなを叶えるサロンを作りました
+              </p>
+            </div> 
+          </div>
+          <div class="col-2 product_title_right">
+            <hr size="70%"   />
+            <p id="first">お肌に優しい&emsp;</p>
+            <p id="second">&emsp;お肌に優しい</p>
+            
+          </div>
         </div>
       </div>
     </div>
