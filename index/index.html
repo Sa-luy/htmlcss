@@ -10,6 +10,8 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <!-- icon boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -18,117 +20,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <style>
-    .header {
-      background-color: rgb(0, 84, 114);
-      /* background-repeat: no-repeat; */
-      background-size: contain;
-      background-position: center;
-    }
-    .content h4 {
-      font-size: 30px;
-      margin: 20px;
-      padding: 5px;
-    }
-    .logo_head img {
-      padding-top: 6em;
-      padding-bottom: 6em;
-      width: 30%;
-      display: inline-block;
-    }
-    .content_first {
-      padding-bottom: 5%;
-    }
-    .content_second h6 {
-      margin: 10px;
-    }
-    .content_second {
-      margin-top: 50px;
-      padding-bottom: 10em;
-    }
-    .body {
-      background-color: rgb(84, 84, 114);
-      display: flex;
-      position: relative;
-    }
-    .note {
-      display: flex;
-      color: rgb(0 80 114);
-      position: absolute;
-      left: 15%;
-      top: -50px;
-    }
-    .content_info {
-      width: 100%;
-      position: relative;
-    }
-    .note h3 {
-      width: 12%;
-      height: 300px;
-    }
-    .note p {
-      width: 6%;
-      writing-mode: vertical-lr;
-      text-align: left;
-      height: 150px;
-    }
-    .content_description {
-      margin: 100px 0px 100px;
-    }
-    .new_product {
-      background-color: rgb(0 80 114);
-    }
-    .fist_product{
-      height: 600px;
-    }
-    .new_product .title {
-      padding-top: 8%;
-      padding-bottom: 8%;
-    }
-    .product_title_left{
-      writing-mode: vertical-lr;
-      border-right: 2px solid white;
-      height: 70%;
-      padding-left: 15%;
-      color: white;
-    }
-    .product_title_left #first {
-      padding: 14px 0px 5px 23px;
-      margin-right: 0px;
-    }
-    .product_title_left #second {
-      margin-left: 0px;
-    }
-    .product_title_right #first {
-      /* padding: 14px 0px 5px 23px; */
-      margin-right: 0px;
-    }
-    .product_title_right #second {
-      margin-left: 0px;
-    padding-top: 15px;
-    }
-   .img-responsive {
-    display: block;
-    max-width: 100%;
-    max-height: auto;
-    object-fit: cover;
-
-   }
-   .fist_product .product_detail  img{
-    height: 350px;
-    border-radius: 40px;
-
-   }
-   .product_title_right {
-    writing-mode: vertical-lr;
-      border-left: 2px solid white;
-      height: 70%;
-      /* padding-left: 15%; */
-      color: white;
-   }
-   .second_product .product_detail img {
-    height: 350px;
-    border-radius: 40px;
-}
+   
    
 
  
@@ -169,7 +61,7 @@
           <p class="bg-white">About SANPOMICH</p>
         </div>
         <div class="text-center content_info">
-          <div class="content_description">
+          <div class="content_description text-light">
             <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに</p>
             <p>お店を好きになってほしい・・・</p>
             <p>そんな想いを込めて「さんぽ路」と名付けました</p>
@@ -190,64 +82,198 @@
         <div class="title text-center">
           <h1>さんぽ路のこだわり</h1>
           <h3>KODAWARI</h3>
-        </div>
-        <div class="row fist_product">
-          <div class="col-3 product_title_left">
-            <p id="first">&emsp;&emsp;仕上がり</p>
-            <p id="second">選べる香りと&emsp;</p>
-            <hr size="70%" id="hrtag" color="white" />
-            <!-- <hr > -->
-          </div>
-          <div class="col-8 px-5 product_detail ">
-            <div class="row product_image">
-              <img class="img-responsive" src="../img/product2.jpg" alt="">
-            </div>
-            <div class="text-light product_description">
-              <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
-              お店を好きになってほしい・・・<br/>
-              そんな想いを込めて「さんぽ路」と名付けました
-              <br />
-              
-                トリミングの様子をずっと見ていたい
-                <br />
-                愛犬のシャンプーを選んでみたい
-                <br />
-                正しいケアを愛犬でレクチャーして欲しい
-                <br />
-                愛犬家にとってあったらいいなを叶えるサロンを作りました
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class=" row second_product">
-          <div class="col-1"></div>
-          <div class="col-8 px-5 product_detail ">
-            <div class="row product_image">
-              <img class="img-responsive" src="../img/product2.jpg" alt="">
-            </div>
-             <div class="text-light product_description">
-              <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
-              お店を好きになってほしい・・・<br/>
-              そんな想いを込めて「さんぽ路」と名付けました
-              <br />
-              
-                トリミングの様子をずっと見ていたい
-                <br />
-                愛犬のシャンプーを選んでみたい
-                <br />
-                正しいケアを愛犬でレクチャーして欲しい
-                <br />
-                愛犬家にとってあったらいいなを叶えるサロンを作りました
-              </p>
+        </div >
+        <div class="row">
+          <div class="col-1">1</div>
+          <div class="col-10">2
+             <div class="row  pb-5 mb-3 fist_product">
+              <div class="col-3 product_title_left">
+                <p id="first">&emsp;&emsp;仕上がり</p>
+                <p id="second">選べる香りと&emsp;</p>
+                <hr size="70%" id="hrtag"  />
+              </div>
+              <div class="col-8 ps-5 product_detail ">
+                <div class="row product_image">
+                  <img class="img-responsive" src="../img/product-1.jpg" alt="">
+                </div>
+                <div class="text-light product_description">
+                  <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
+                  お店を好きになってほしい・・・<br/>
+                  そんな想いを込めて「さんぽ路」と名付けました
+                  <br />
+                  
+                    トリミングの様子をずっと見ていたい
+                    <br />
+                    愛犬のシャンプーを選んでみたい
+                    <br />
+                    正しいケアを愛犬でレクチャーして欲しい
+                    <br />
+                    愛犬家にとってあったらいいなを叶えるサロンを作りました
+                  </p>
+                </div>
+              </div>
             </div> 
-          </div>
-          <div class="col-2 product_title_right">
-            <hr size="70%"   />
-            <p id="first">お肌に優しい&emsp;</p>
-            <p id="second">&emsp;お肌に優しい</p>
+            <div class=" row pb-5 mb-3 second_product">
+              <div class="col-1"></div>
+              <div class="col-8 px-5 product_detail ">
+                <div class="row product_image">
+                  <img class="img-responsive" src="../img/product-2.jpg" alt="">
+                </div>
+                <div class="text-light product_description">
+                  開発者がお肌の弱かった娘さんのためを想い作り上げました。</br>
+                  ミラブルシャワーを使い丁寧にシャンプーをします。<br>
+                  わんちゃんのお肌はとってもデリケートです。<br>
+                  シャワーの音・刺激も少ないミスト水流なのでリラックスしてくれる子も...。<br>
+                  また保湿効果もあり、肉球の乾燥抑制に繋がるとされています。 </p>
+                </div> 
+              </div>
+              <div class="col-2 product_title_right">
+                <hr size="70%"   />
+                <p id="first">&emsp;&emsp;ミラブルシャワー</p>
+                <p id="second">お肌に優しい&emsp;</p>
+                
+              </div>
+            </div> 
+            <div class="row  pb-5 mb-3 fist_product">
+              <div class="col-3 product_title_left">
+                <p id="first">&emsp;&emsp;ひと息</p>
+                <p id="second">和の優しい空間で&emsp;</p>
+                <hr size="70%" id="hrtag"  />
+              </div>
+              <div class="col-8 ps-5 product_detail ">
+                <div class="row product_image">
+                  <img class="img-responsive" src="../img/product-3.jpg" alt="">
+                </div>
+                <div class="text-light product_description">
+                  <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
+                  お店を好きになってほしい・・・<br/>
+                  そんな想いを込めて「さんぽ路」と名付けました
+                  <br />
+                  
+                    トリミングの様子をずっと見ていたい
+                    <br />
+                    愛犬のシャンプーを選んでみたい
+                    <br />
+                    正しいケアを愛犬でレクチャーして欲しい
+                    <br />
+                    愛犬家にとってあったらいいなを叶えるサロンを作りました
+                  </p>
+                </div>
+              </div>
+            </div> 
             
           </div>
+          <div class="col-1"></div>
+          
         </div>
+      </div>
+      <div class="row blog">
+        <div class="col-2"></div>
+        <div class="col-8">
+          
+          <div class="col text-center py-5 mt-3">
+            <h1>/ ブログ /</h1>
+          </div>
+          <div class=" row list-blog py-3 border_dotted ">
+            <div class="col-3">
+              <strong>2022 年 11 月 15 日</strong>
+            </div>
+            <div class="col-9"> 
+              <span><a href="#">お知らせテキストお知らせテキストお知らせテキスト</a></span>
+            </div>
+
+          </div>
+          <div class=" row list-blog py-3 border_dotted ">
+            <div class="col-3">
+              <strong>2022 年 11 月 15 日</strong>
+            </div>
+            <div class="col-9"> 
+              <span>
+                <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
+              </span>
+
+            </div>
+
+          </div>
+          <div class=" row list-blog py-3 border_dotted">
+            <div class="col-3">
+              <strong>2022 年 11 月 15 日</strong>
+            </div>
+            <div class="col-9"> 
+              <span>
+                <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
+              </span>
+
+            </div>
+
+          </div>
+          <div class=" row list-blog py-3 border_dotted">
+            <div class="col-3">
+              <strong>2022 年 11 月 15 日</strong>
+            </div>
+            <div class="col-9"> 
+              <span>
+                <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
+              </span>
+
+            </div>
+
+          </div>
+          <div class="read_more py-5"><p >
+            <a href="">Read more <i class="bi bi-arrow-right"></i>
+           </a></p> 
+          </div>
+          
+        </div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row hot_product">
+        <div class="col 2"></div>
+        <div class="col-8">
+          <div class="grid-colum">
+            <div class="item ">
+              <div class="product_img">
+                <img src="../img/product-2.jpg" alt="" width="100%">
+              </div>
+              <div class="product_title">
+                <span class="">2022 年 11 月 15 日</span><br>
+                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="product_img">
+                <img src="../img/product-2.jpg" alt="" width="100%">
+              </div>
+              <div class="product_title">
+                <span class="">2022 年 11 月 15 日</span><br>
+                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="product_img">
+                <img src="../img/product-2.jpg" alt="" width="100%">
+              </div>
+              <div class="product_title">
+                <span class="">2022 年 11 月 15 日</span><br>
+                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+              </div>
+            </div>
+            <div class="item ">
+              <div class="product_img">
+                <img src="../img/product-2.jpg" alt="" width="100%">
+              </div>
+              <div class="product_title">
+                <span class="">2022 年 11 月 15 日</span><br>
+                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+              </div>
+            </div>
+          </div>
+          <div class="read_more py-5 border_dotted"><p >
+            <a href="">Read more <i class="bi bi-arrow-right"></i>
+           </a></p> 
+          </div>
+        </div>
+        <div class="col 2"></div>
       </div>
     </div>
   </body>
