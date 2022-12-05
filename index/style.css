@@ -46,8 +46,10 @@
     position: absolute;
     left: 15%;
     top: -50px;
+    z-index: 20;
   }
   .content_info {
+    background-image: url(../img/knkiC-R9I68b9x8QB96gGv3Hccsufxw_MNPyK7MvQdeOyNb3m9YZTUCnkGYF1YPBsGVgYhJT1Uv4E_Gqn7W1jdVtgoV7-AgknfA0SUHuHfP6f94j_541k3LyuGFk9t7T.jpg);
     width: 100%;
     position: relative;
   }
