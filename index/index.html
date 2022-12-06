@@ -21,9 +21,9 @@
   </head>
   <style>
   .header .pb-3 .menu {
-    background-color: aliceblue;
+    background-color: rgb(0, 84, 114);
     float: right;
-    height: 60px;
+    height: 62px;
     position: absolute;
     right: 0px;
     width: 60px;
@@ -41,75 +41,106 @@ sup {
   position: relative;
   right: 100px;
 }
-#myLinks {
-  display: none;
+  .header-before {
+    background-image: url('../img/image1.jpg');
+    background-size: contain;
+    position: relative;
+    filter: grayscale(50%);
+  } 
+  .img-title {
+    position: relative;
+  }
+  
+    .icon-logo {
+    width: 13%;
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    transform: translateY(-50%);
+
+  }  
+  button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 3px;
+}
+.left {
+    position: absolute;
+    right: -2px;
+}
+.right {
+    position: relative;
+    left: -18px;
+}
+.icon-logo img {
+        position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.logo_head {
+  position: relative;
 
 }
-#myLinks ul li a:hover{
-  color: aliceblue;
-  font-size: 25px;
-}
-ul li {
-  list-style-type: none;
-}
-   
+.logo-info .bi-instagram {
+    font-size: 25px;
+  }
+  
 
  
   </style>
   <body>
-    <div class="container">
+    <div class="header-before">
       <div class="header">
-        <div class="pb-3">
+        <div class="pb-3 img-title">
           <div class="menu">
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="bi bi-list"></i>
               <sup>Menu</sup> 
             </a>
-            <div class="list-menu">
-
-              <div id="myLinks">
-                <ul>
-                  <li><a href="#news">News</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li><a href="#about">About</a></li>
-                </ul>
-              </div>
-            </div>
+            
           </div>
           <img src="../img/Untitled-1.png" alt="" />
+          <div class="icon-logo">
+            <img src="../img/logo-footer.png" alt="" width="">
+          </div>
         </div>
        
-        <div class="logo_head py-4 mb-5">
+        <div class="logo_head py-5">
           <img src="../img/logo_white_opacity0.png" alt="" />
         </div>
         
-        <div class="text-light text-center content_first">
-          <h4>さんぽ路は</h4>
-          <h4>家族の一員であるわんちゃんの気持ちに寄り添い</h4>
-          <h4>心と体のケアができるトリミングサロンです</h4>
+        <div class="text-light py-5 text-center content_first">
+          <h5>さんぽ路は</h5>
+          <h5>家族の一員であるわんちゃんの気持ちに寄り添い</h5>
+          <h5>心と体のケアができるトリミングサロンです</h5>
         </div>
-        <div class="text-light content_second">
-          <h6>上手にできる子に</h6>
-          <h6>
-            も話しかけながら 居心地のいい場所になりますように
+        <div class="text-light  content_second">
+          <p>苦手なことは無理に進めずに</p>
+          <p>
             少しづつ慣れていけるように・・
-          </h6>
-          <h6>苦手なことは理に進めずに 楽しい日にしたい ロレム・・・</h6>
-          <h6>イプサム</h6>
-          <br />
-          <h6>
+          </p>
+          <p>上手にできる子にも話しかけながら・・</h6>
+          <p>楽しい日にしたい</p>
+          <br>
+          <p>
             わんちゃんにとっても飼い主様にとっても月に１度のご褒美となるような
-            居心地のいい場所になりますように
-          </h6>
+          </p>
+          <p>居心地のいい場所になりますように</p>
         </div>
       </div>
-      <div class="body">
-        <div class="note">
-          <h3 class="bg-white">さんぽ路について</h3>
-          <p class="bg-white">About SANPOMICH</p>
-        </div>
-        <div class="text-center content_info">
-          <div class="content_description text-light">
+    </div>
+    <div class="body">
+      <div class="note">
+        <h3 class="bg-white">さんぽ路について</h3>
+        <p class="bg-white">About SANPOMICH</p>
+      </div>
+      <div class="text-center content_info">
+        <div class="content_description text-light">
+          <div class="detail">
             <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに</p>
             <p>お店を好きになってほしい・・・</p>
             <p>そんな想いを込めて「さんぽ路」と名付けました</p>
@@ -126,264 +157,274 @@ ul li {
           </div>
         </div>
       </div>
-      <div class="new_product">
-        <div class="title text-center">
-          <h1>さんぽ路のこだわり</h1>
-          <h3>KODAWARI</h3>
-        </div >
-        <div class="row">
-          <div class="col-1">1</div>
-          <div class="col-10">2
-             <div class="row  pb-5 mb-3 fist_product">
-              <div class="col-3 product_title_left">
+    </div>
+    <div class="new_product">
+      <div class=" text-light py-5 text-center">
+        <h2>さんぽ路のこだわり</h2>
+        <h4>KODAWARI</h4>
+      </div >
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div class="row  pb-5 mb-3 fist_product">
+            <div class="col-3 product_title_left">
+              <div class="left">
                 <p id="first">&emsp;&emsp;仕上がり</p>
                 <p id="second">選べる香りと&emsp;</p>
                 <hr size="70%" id="hrtag"  />
               </div>
-              <div class="col-8 ps-5 product_detail ">
-                <div class="row product_image">
-                  <img class="img-responsive" src="../img/product-1.jpg" alt="">
-                </div>
-                <div class="text-light product_description">
-                  <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
-                  お店を好きになってほしい・・・<br/>
-                  そんな想いを込めて「さんぽ路」と名付けました
+            </div>
+            <div class="col-8 ps-5 product_detail ">
+              <div class="row product_image">
+                <img class="img-responsive" src="../img/product-1.jpg" alt="">
+              </div>
+              <div class="text-light product_description">
+                <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
+                お店を好きになってほしい・・・<br/>
+                そんな想いを込めて「さんぽ路」と名付けました
+                <br />
+                
+                  トリミングの様子をずっと見ていたい
                   <br />
-                  
-                    トリミングの様子をずっと見ていたい
-                    <br />
-                    愛犬のシャンプーを選んでみたい
-                    <br />
-                    正しいケアを愛犬でレクチャーして欲しい
-                    <br />
-                    愛犬家にとってあったらいいなを叶えるサロンを作りました
-                  </p>
-                </div>
+                  愛犬のシャンプーを選んでみたい
+                  <br />
+                  正しいケアを愛犬でレクチャーして欲しい
+                  <br />
+                  愛犬家にとってあったらいいなを叶えるサロンを作りました
+                </p>
               </div>
-            </div> 
-            <div class=" row pb-5 mb-3 second_product">
-              <div class="col-1"></div>
-              <div class="col-8 px-5 product_detail ">
-                <div class="row product_image">
-                  <img class="img-responsive" src="../img/product-2.jpg" alt="">
-                </div>
-                <div class="text-light product_description">
-                  開発者がお肌の弱かった娘さんのためを想い作り上げました。</br>
-                  ミラブルシャワーを使い丁寧にシャンプーをします。<br>
-                  わんちゃんのお肌はとってもデリケートです。<br>
-                  シャワーの音・刺激も少ないミスト水流なのでリラックスしてくれる子も...。<br>
-                  また保湿効果もあり、肉球の乾燥抑制に繋がるとされています。 </p>
-                </div> 
+            </div>
+          </div> 
+          <div class=" row pb-5 mb-3 second_product">
+            <div class="col-1"></div>
+            <div class="col-8 px-5 product_detail ">
+              <div class="row product_image">
+                <img class="img-responsive" src="../img/product-2.jpg" alt="">
               </div>
-              <div class="col-2 product_title_right">
+              <div class="text-light product_description">
+                開発者がお肌の弱かった娘さんのためを想い作り上げました。</br>
+                ミラブルシャワーを使い丁寧にシャンプーをします。<br>
+                わんちゃんのお肌はとってもデリケートです。<br>
+                シャワーの音・刺激も少ないミスト水流なのでリラックスしてくれる子も...。<br>
+                また保湿効果もあり、肉球の乾燥抑制に繋がるとされています。 </p>
+              </div> 
+            </div>
+            <div class="col-2 product_title_right">
+              <div class="right">
                 <hr size="70%"   />
                 <p id="first">&emsp;&emsp;ミラブルシャワー</p>
                 <p id="second">お肌に優しい&emsp;</p>
+              </div>
+              
+            </div>
+          </div> 
+          <div class="row  pb-5 mb-3 fist_product">
+            <div class="col-3 product_title_left">
+              <div class="left">
+              <p id="first">&emsp;&emsp;ひと息</p>
+              <p id="second">和の優しい空間で&emsp;</p>
+              <hr size="70%" id="hrtag"  />
+            </div>
+            </div>
+            <div class="col-8 ps-5 product_detail ">
+              <div class="row product_image">
+                <img class="img-responsive" src="../img/product-3.jpg" alt="">
+              </div>
+              <div class="text-light product_description">
+                <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
+                お店を好きになってほしい・・・<br/>
+                そんな想いを込めて「さんぽ路」と名付けました
+                <br />
                 
-              </div>
-            </div> 
-            <div class="row  pb-5 mb-3 fist_product">
-              <div class="col-3 product_title_left">
-                <p id="first">&emsp;&emsp;ひと息</p>
-                <p id="second">和の優しい空間で&emsp;</p>
-                <hr size="70%" id="hrtag"  />
-              </div>
-              <div class="col-8 ps-5 product_detail ">
-                <div class="row product_image">
-                  <img class="img-responsive" src="../img/product-3.jpg" alt="">
-                </div>
-                <div class="text-light product_description">
-                  <p>わんちゃんが毎日行きたい大好きなお散歩と同じくらいに<br/>
-                  お店を好きになってほしい・・・<br/>
-                  そんな想いを込めて「さんぽ路」と名付けました
+                  トリミングの様子をずっと見ていたい
                   <br />
-                  
-                    トリミングの様子をずっと見ていたい
-                    <br />
-                    愛犬のシャンプーを選んでみたい
-                    <br />
-                    正しいケアを愛犬でレクチャーして欲しい
-                    <br />
-                    愛犬家にとってあったらいいなを叶えるサロンを作りました
-                  </p>
-                </div>
+                  愛犬のシャンプーを選んでみたい
+                  <br />
+                  正しいケアを愛犬でレクチャーして欲しい
+                  <br />
+                  愛犬家にとってあったらいいなを叶えるサロンを作りました
+                </p>
               </div>
-            </div> 
-            
-          </div>
-          <div class="col-1"></div>
+            </div>
+          </div> 
           
         </div>
+        <div class="col-1"></div>
+        
       </div>
-      <div class="row blog">
-        <div class="col-2"></div>
-        <div class="col-8">
-          
-          <div class="col text-center py-5 mt-3">
-            <h1>/ ブログ /</h1>
-          </div>
-          <div class=" row list-blog py-3 border_dotted ">
-            <div class="col-3">
-              <strong>2022 年 11 月 15 日</strong>
-            </div>
-            <div class="col-9"> 
-              <span><a href="#">お知らせテキストお知らせテキストお知らせテキスト</a></span>
-            </div>
-
-          </div>
-          <div class=" row list-blog py-3 border_dotted ">
-            <div class="col-3">
-              <strong>2022 年 11 月 15 日</strong>
-            </div>
-            <div class="col-9"> 
-              <span>
-                <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
-              </span>
-
-            </div>
-
-          </div>
-          <div class=" row list-blog py-3 border_dotted">
-            <div class="col-3">
-              <strong>2022 年 11 月 15 日</strong>
-            </div>
-            <div class="col-9"> 
-              <span>
-                <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
-              </span>
-
-            </div>
-
-          </div>
-          <div class=" row list-blog py-3 border_dotted">
-            <div class="col-3">
-              <strong>2022 年 11 月 15 日</strong>
-            </div>
-            <div class="col-9"> 
-              <span>
-                <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
-              </span>
-
-            </div>
-
-          </div>
-          <div class="read_more py-5"><p >
-            <a href="">Read more <i class="bi bi-arrow-right"></i>
-           </a></p> 
-          </div>
-          
-        </div>
-        <div class="col-2"></div>
-      </div>
-      <div class="row hot_product">
-        <div class="col 2"></div>
-        <div class="col-8">
-          <div class="grid-colum">
-            <div class="item ">
-              <div class="product_img">
-                <img src="../img/product-2.jpg" alt="" width="100%">
-              </div>
-              <div class="product_title">
-                <span class="">2022 年 11 月 15 日</span><br>
-                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
-              </div>
-            </div>
-            <div class="item ">
-              <div class="product_img">
-                <img src="../img/product-2.jpg" alt="" width="100%">
-              </div>
-              <div class="product_title">
-                <span class="">2022 年 11 月 15 日</span><br>
-                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
-              </div>
-            </div>
-            <div class="item ">
-              <div class="product_img">
-                <img src="../img/product-2.jpg" alt="" width="100%">
-              </div>
-              <div class="product_title">
-                <span class="">2022 年 11 月 15 日</span><br>
-                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
-              </div>
-            </div>
-            <div class="item ">
-              <div class="product_img">
-                <img src="../img/product-2.jpg" alt="" width="100%">
-              </div>
-              <div class="product_title">
-                <span class="">2022 年 11 月 15 日</span><br>
-                <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
-              </div>
-            </div>
-          </div>
-          <div class="read_more py-5 border_dotted"><p >
-            <a href="">Read more <i class="bi bi-arrow-right"></i>
-           </a></p> 
-          </div>
-        </div>
-        <div class="col 2"></div>
-      </div>
-      <div class="row pb-5 social">
-        <div class="col-2"></div>
-        <div class="col-8 ">
-          <div class="row both_social">
-            <div class="col-6 py-5 text-center instagram">
-              <h3 class="py-5"> / インスタグラム /</h3>
-              <div class="iframe"> 
-                <iframe src="https://www.instagram.com" width="100%" height="90%" >
-                </iframe>
-              </div>
-            </div>
-            
-            <div class="col-6 py-5 text-center instagram">
-              <h3 class="py-5">/ 空き状況 /</h3>
-              <div class="iframe"> 
-                <iframe src="https://www.facebook.com/nguyenngoc.saluy/" width="100%" height="90%" >
-                </iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-2"></div>
     </div>
-    <div class="row mb-5 infomation ">
-      <div class="col-2"></div>
-      <div class="col-8"> 
-         <div class="text-center py-5 text-light info-content">
-            <h1 class="py-5">予約</h1>
-            <h6>RESERVE</h6>
-            <div class="info-company indent">
-              <p>トリミング作業中の場合お電話に出られない場合がございます</p>
-              <p> その際は大変申し訳ございませんが当日中に折り返しさせて頂きます </p>
-              <p>LINEからのご連絡いただければよりスムーズに対応可能です</p>
+    <div class="row blog">
+      <div class="col-8">
+        
+        <div class="col text-center py-5 mt-3">
+          <h2>/ お知らせ /</h2>
+        </div>
+        <div class=" row list-blog py-3 border_dotted ">
+          <div class="col-3">
+            <strong>2022 年 11 月 15 日</strong>
+          </div>
+          <div class="col-9"> 
+            <span><a href="#">お知らせテキストお知らせテキストお知らせテキスト</a></span>
+          </div>
+
+        </div>
+        <div class=" row list-blog py-3 border_dotted ">
+          <div class="col-3">
+            <strong>2022 年 11 月 15 日</strong>
+          </div>
+          <div class="col-9"> 
+            <span>
+              <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
+            </span>
+
+          </div>
+
+        </div>
+        <div class=" row list-blog py-3 border_dotted">
+          <div class="col-3">
+            <strong>2022 年 11 月 15 日</strong>
+          </div>
+          <div class="col-9"> 
+            <span>
+              <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
+            </span>
+
+          </div>
+
+        </div>
+        <div class=" row list-blog py-3 border_dotted">
+          <div class="col-3">
+            <strong>2022 年 11 月 15 日</strong>
+          </div>
+          <div class="col-9"> 
+            <span>
+              <a href="#">お知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキストお知らせテキスト</a>
+            </span>
+
+          </div>
+
+        </div>
+        <div class="read_more py-5"><p >
+          <a href="">Read more <i class="bi bi-arrow-right"></i>
+          </a></p> 
+        </div>
+        
+      </div>
+    </div>
+    <div class="row hot_product">
+      <div class="col-8">
+        <div class="col text-center py-5 mt-3 list">
+          <h2>/ ブログ /</h2>
+        </div>
+        <div class="grid-colum">
+          <div class="item ">
+            <div class="product_img">
+              <img src="../img/product-2.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="product_title">
+              <span class="">2022 年 11 月 15 日</span><br>
+              <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
             </div>
           </div>
-          <div class="row">
-              <div class="col-6">
-                <div class="text-center half">
-                  <div class="button_contact ">
-                    <div class="phone">
-                    <p>お電話でのご予約</p>
-                   <p style="font-size: 20px;"> 048-607-4440 </p>
-                    <p>営業時間 9:30~17:00 不定休</p>
-                  </div>
+          <div class="item ">
+            <div class="product_img">
+              <img src="../img/product-2.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="product_title">
+              <span class="">2022 年 11 月 15 日</span><br>
+              <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="product_img">
+              <img src="../img/product-2.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="product_title">
+              <span class="">2022 年 11 月 15 日</span><br>
+              <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="product_img">
+              <img src="../img/product-2.jpg" alt="" class="img-responsive">
+            </div>
+            <div class="product_title">
+              <span class="">2022 年 11 月 15 日</span><br>
+              <p>お知らせテキストお知らせテキ ストお知らせテキ</p>
+            </div>
+          </div>
+        </div>
+        <div class="read_more py-5 border_dotted"><p >
+          <a href="">Read more <i class="bi bi-arrow-right"></i>
+          </a></p> 
+        </div>
+      </div>
+    </div>
+    <div class="row pb-5 social">
+      <div class="col-8 ">
+        <div class="row both_social">
+          <div class="col-md-6 py-5 text-center instagram">
+            <h3 class="py-5"> / インスタグラム /</h3>
+            <div class="iframe"> 
+              <iframe src="https://www.instagram.com" width="100%" height="90%" >
+              </iframe>
+            </div>
+          </div>
+          
+          <div class="col-md-6 py-5 text-center instagram">
+            <h3 class="py-5">/ 空き状況 /</h3>
+            <div class="iframe"> 
+              <iframe src="https://www.facebook.com/nguyenngoc.saluy/" width="100%" height="90%" >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-img">
+      <div class="bg-gradient">
+          <div class="row  infomation ">
+            <div class="col-8"> 
+              <div class="text-center py-5 text-light info-content">
+                  <h1 class="py-5">予約</h1>
+                  <h6>RESERVE</h6>
+                  <div class="info-company indent">
+                    <p>トリミング作業中の場合お電話に出られない場合がございます</p>
+                    <p> その際は大変申し訳ございませんが当日中に折り返しさせて頂きます </p>
+                    <p>LINEからのご連絡いただければよりスムーズに対応可能です</p>
                   </div>
                 </div>
-              </div>
-              <div class="col-6">
-                <div class="text-center half">
-                <div class="button_contact">
-                  <p>LINEでのご予約</p>
+                <div class="row info-button">
+                    <div class="col-md-6 py-3 contact">
+                      <div class="text-center half">
+                        <div class="button_contact ">
+                          <button class="text-light">
+                            <p style="    margin-top: 1em;margin-bottom: 0;">お電話でのご予約</p>
+                          <span > 048-607-4440 </span>
+                          <p>営業時間 9:30~17:00 不定休</p>
+                          </button>
+                        
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 py-3 contact">
+                      <div class="text-center half">
+                      <div class="button_contact">
+                        <button class="text-light">
+
+                          <span >LINEでのご予約</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
             </div>
+          
           </div>
-      </div>
-    
-      <div class="col-2"></div>
-    </div>
+      </div>    
+    </div> 
     <div class="row footer">
-      <div class="col-2"></div>
+      <!-- <div class="col-2"></div> -->
       <div class="col-8 text-center py-5 logo-info ">
         <img src="../img/logo-footer.png" alt="" class="py-3">
         <h3>〒336-0033 埼玉県さいたま市南区曲本3-6-8</h3>
@@ -392,11 +433,11 @@ ul li {
          <i class="bi bi-instagram"></i>
          <h2>&copy;sanpomichi</h2>
       </div>
-      <div class="col-2"></div>
+      <!-- <div class="col-2"></div> -->
 
     </div>
 
-    </div>
+    <!-- </div> -->
     <script>
       function myFunction() {
   var x = document.getElementById("myLinks");
